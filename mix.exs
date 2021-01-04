@@ -1,7 +1,7 @@
 defmodule LiveProps.MixProject do
   use Mix.Project
 
-  @version "0.2.2"
+  @version "0.2.3"
 
   def project do
     [
@@ -31,7 +31,7 @@ defmodule LiveProps.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:phoenix_live_view, "~> 0.13.2"},
+      {:phoenix_live_view, "~> 0.15.3"},
       {:floki, ">= 0.0.0", only: :test},
       {:jason, "~> 1.2", only: [:dev, :test]},
       {:ex_doc, "~> 0.22", only: :dev, runtime: false},
